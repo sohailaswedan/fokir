@@ -1,0 +1,412 @@
+*
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.clear-fix
+{
+    clear: both;
+}
+div.home
+{
+    height: 100vh;
+    background-image: url(../images/hero\ img.jpg);
+    background-position: contain;
+}
+.home-layer
+{
+    background-color: rgba(0, 0, 0, 0.79);
+    height: 100vh;
+    overflow: auto;
+}
+.home-content
+{
+    text-align: center;
+    margin-top: 300px;
+}
+.white
+{
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+p.red
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+h1.red
+{
+    font-size: 50px;
+}
+.navbar
+{
+    width: 80%;
+    margin-inline: auto;
+}
+.nav li
+{
+    list-style: none;
+    position:relative;
+    top:-20px;
+}
+.nav li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.logo a 
+{
+    float: left;
+    color: #ff305b;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.red
+{
+    color: #ff305b;
+}
+.nav li
+{
+    float: left;
+    padding-inline: 10px;
+    /* padding-left: px; */
+    /* margin-left: 100px; */
+}
+.nav ul
+{
+    padding-left: 530px;
+    
+}
+.navbar
+{
+    text-align: center;
+}
+div.border
+{
+    border: 8px #555555 solid;
+    border-radius: 1%;
+}
+.about
+{
+    text-align: center;
+    /* height: 400px; */
+    margin-inline: auto;
+    margin-top: 80px;
+  /* width: 50%; */
+}
+.border
+{
+    /* width: 30%; */
+    float: left;
+    margin-left: 200px;
+}
+.border img
+{
+    width: 100%;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.info
+{
+    float: right;
+    /* width: 50%; */
+    vertical-align:200px;
+    margin-right: 200px;
+    position: relative;
+    bottom: 300px;
+}
+.info p
+{
+    margin-bottom: 40px;
+    margin-top: 2px;
+    position: relative;
+    bottom: 130px;
+    right: 350px;
+    font-size: 25px;
+}
+.lists hr
+{
+    border-top: 1px dashed grey;
+}
+.info li
+{
+    list-style: none;
+}
+.first-list 
+{
+    display: inline-block;
+    margin-right: 25px;
+    padding-inline: 20px;
+}
+.first-list li
+{
+    padding: 10px;
+}
+.second-list li
+{
+    padding: 10px;
+}
+.second-list 
+{
+    display: inline-block;
+
+}
+.lists
+{
+position: relative;
+right:150px;
+}
+.buttons button
+{
+    color: white;
+    background-color: #ff305b;
+    border: 1px solid #ff305b ;
+    border-radius: 1%;
+    padding: 10px;
+}
+.buttons
+{
+    margin-right: 250px;
+}
+.lists span
+{
+    font-weight: bold;
+}
+/* .profile-caption img
+{
+    width:15%;
+    border-radius: 50%;
+} */
+/* .profile-caption
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.249);
+    color: white;
+    transform: translateY(100%);
+} */
+.services
+{
+    background-color: #f1f1f1;
+}
+.title h2 , .portofolio h2
+{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+}
+.desc1, .desc2
+{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.desc3, .desc4
+{
+    float: right;
+    width: 25%;
+    padding: 10px;
+}
+.desc
+{
+    margin-inline: auto;
+    width: 80%;
+    margin-top: 150px;
+}
+.desc h3
+{
+    padding: 10px;
+}
+.desc p
+{
+    margin-bottom: 50px;
+}
+.nav2 li
+{
+    display: inline-block;
+    padding: 10px;
+}
+.nav2
+{
+    width: 30%;
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+a
+{
+    text-decoration: none;
+}
+.pics img
+{
+    width: 30%;
+    display: inline-block;
+    margin: 15px;
+}
+.pics
+{
+    width: 80%;
+    margin-inline: auto;
+    text-align: center;
+}
+.test
+{
+    background-color:#f1f1f1 ;
+    width: 60%;
+    margin-inline: auto;
+}
+.title3 h2
+{
+    background-color: white;
+    text-align: center;
+}
+.content1 , .content2, .content3, .content4
+{
+    display: inline-block;
+    width: 20%;
+}
+.sec5
+{
+    background-color:#f1f1f1;
+    text-align: center;
+}
+.sec5-content
+{
+    margin-block: 100px;
+    padding: 100px;
+}
+.sec5-content img , .sec5-content p
+{
+    margin-bottom: 10px;
+}
+.blog
+{
+    background-color:#f1f1f1 ;
+    overflow: auto;
+    margin-top: 30px;
+}
+.title4 h2
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.card1, .card2
+{
+    float: left;
+    width: 30%;
+}
+.card3
+{
+    float: right;
+    width: 30%;
+}
+.cards img
+{
+    width: 100%;
+}
+.card2 iframe
+{
+    width: 100%;
+}
+.card2
+{
+    margin-left: 60px;
+}
+.cards
+{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 40px;
+}
+.card1, .card2, .card3
+{
+    background-color: white;
+}
+.cards h4, .cards p
+{
+    padding-block: 10px;
+}
+.footer
+{
+    background-color: #333333;
+    overflow: auto;
+    margin-top: 40px;
+}
+.footer-content img
+{
+    width: 2%;
+    border-radius:50%;
+}
+.footer-content
+{
+    margin-block: 40px;
+    text-align: center;
+    color: white;
+}
+.footer-content img
+{
+    background-color: white;
+    margin-bottom: 20px;
+}
+div.contact
+{
+    margin-inline: auto;
+    /* text-align: center; */
+    width: 80%;
+    margin-top: 50px;
+}
+input , textarea
+{
+    margin: 8px;
+    padding: 5px;
+    margin-left: 300px;
+}
+textarea
+{
+    width: 60%;
+    padding: 20px;
+}
+.sub
+{
+    width: 60%;
+}
+form
+{
+    margin-top: 20px;
+}
+.title5
+{
+    text-align: center;
+}
+.test
+{
+    height: 40vh;
+}
+.right
+{
+    display: inline-block;
+    width: 30%;
+}
+.right img
+{
+    width: 50%;
+    border-radius: 50%;
+    background-color: white;
+}
+.left
+{
+    display: inline-block;
+    width: 65%;
+    margin-top: 30px;
+}
